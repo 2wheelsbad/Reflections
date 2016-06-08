@@ -4,3 +4,23 @@ The .git folder with meta data is created. This lets allows git to track the dir
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area acts a middle ground, between non-commited files currently being worked on and fully commited files. 
 This all you to test files before fully adding them to the committed project.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Since you may work on multiple changes before starting commits, you can use the staging
+area to act as a filter and ensure you are commiting one logical change at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You can work on experimental changes and deploy to beta while still being able to fix any major issues found in the core applications.
+This works because the changes being made to the beta branch will not affect the live branch and vise-versa.
+
+How do the diagrams help you visualize the branch structure?
+You can see how the branch structure is laid out.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the changes made from the two branches are combined to a single branch. The diagram represent the merging of two branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros for auto - huge time saver
+Cons for auto - unable to determine all best merge cases
+Pros for manual - able to confirm exactly how the merge needs to happen
+Cons for manual - takes more time
