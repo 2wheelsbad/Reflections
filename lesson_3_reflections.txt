@@ -15,3 +15,7 @@ This will allow you to work with the last known state without having to have a c
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Emailing changes back and forth would be the initial idea. GitHub being centralized and keeping track of file history
 makes it much easier than email.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+By making changes in a separate branch you can take more risk w/o having to worry about breaking the production environment, however merging can be difficult once it's completed.
+By not making changes you increase the chance of introducing a bug in the production environment, however its much cleaning and merging is not a big issue.
