@@ -11,3 +11,7 @@ Branches are used to work on an experimental change in an existing directory wit
 
 What is the benefit of haivng a copy of the last known state of the remote stored locally?
 This will allow you to work with the last known state without having to have a constant connection to GitHub
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Emailing changes back and forth would be the initial idea. GitHub being centralized and keeping track of file history
+makes it much easier than email.
